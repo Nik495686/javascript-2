@@ -1,5 +1,4 @@
-'use srict';
-// var Persone= {
+'use sric'
 //     name:"Jone",
 //     age:25,
 //     isMarried:false
