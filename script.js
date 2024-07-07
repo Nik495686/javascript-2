@@ -1,32 +1,62 @@
-'use sric'
-//     name:"Jone",
-//     age:25,
-//     isMarried:false
-  
-//   };
-// console.log(Persone["name"]);
-// const promt=require("prompt-sync")({sigint:true}) ;
-let Arr=['plum.png','orange.jpg'];
-console.log(Arr[0]);
+// let options ={
+// 	width:1024,
+// 	height:2014,
+// 	name:"test"
+// }
+// console.log(options.name);
+// options.bool=false;
+// options.color={
+// 	border:"black",
+// 	bg:"red"
+// };
+// delete options.bool;
+// console.log(options);
+
+// for (let key in options){
+// 	console.log('Свойство ' + key + ' имеет значение' + options[key]);
+// }
+// console.log(Object.keys(options).length);
+
+// let arr= ["first",2,3,"four",5];
+// //  for (i=0; i<arr.length; i++){
+// // 	console.log(arr[i])
+// //  }
+// let arr =[1,2,3,4,5,6];
+// arr.forEach(function(item,i,mass){
+// 	console.log(i+ ': ' + item +"(массив:" +mass+')');
+// })
 
 
-let answer = +prompt("Есть ли вам 18?","Да");
+// console.log(arr)
 
-console.log(typeof(answer));
+// let mass = [1,2,3,4,5];
+//  for( let key of mass){
+//   console.log(key)
+//  }
 
-console.log("Arr"+"-object");
-console.log(4 +"-object");
+// let ans=prompt("","")
+// arr=[];
+// arr=ans.split(',');
+// console.log(arr)
+//  let arr=["aere","defe","feef","fefe"];
+//   i=arr.join(', ');
+//   console.log(arr)
+// let arr=[1,15,4];
 
-let incr =10,
-    decr=10;
+i=arr.sort(compareNaN);
+function compareNaN(a,b){
+	return a-b;
+}
+console.log(arr)
 
-console.log(++incr);
-console.log(--decr);
+let solder={
+	health:400,
+	armor:100
+}
+ let Jone={
+	health:100,
+ }
 
-console.log(5%2);
-console.log("2" ==2)
-
-let isChecked =false;
-    isClose=false;
-
-console.log(isChecked || isClose);
+ Jone.__proto__=solder;
+ console.log(Jone);
+ console.log(Jone.armor);
